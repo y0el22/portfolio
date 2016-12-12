@@ -1,0 +1,226 @@
+/*FONTS*/
+/*
+font-family: 'Pacifico', cursive;
+font-family: 'Archivo Narrow', sans-serif;
+/*
+
+/*HEADER*/
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #009E84;
+  height: 2px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function:ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.links a:hover{  
+    color: white;
+    
+}
+
+
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+}
+ .destacado{
+        color:#04F2CA;
+
+    }
+
+.co-default{
+    color: #009E84;
+}
+
+.logo a{
+    color: #ffffff;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.2em;
+    margin-left: 15px;
+    font-weight: 300;
+}
+
+p,h3,h4,footer{
+    
+    color:white;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+.navigation{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #04F2CA;
+    background: linear-gradient(to bottom, rgba(5,240,201,1) 0%, rgba(5,240,201,0.84) 80%, rgba(5,240,201,0.8) 100%);
+    margin-top: 0;
+    justify-content: space-between;
+    /*justify-content: center;*/
+    align-items: center;
+    padding: 0, 0, 8, 0 ;
+    border-bottom:  3px solid #009E84;
+    position: fixed;
+    
+   
+    
+}
+
+ 
+
+
+
+
+
+
+
+.fondo-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 710px;
+    background: url(../assets/primer-fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+
+ .titulo-fondo {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); 
+    width: 100%;
+    /*background-color: rgba(233,233,233,.3);*/
+    }
+/*
+ .titulo-fondo h1{
+    justify-content: flex-start;
+    text-transform: uppercase;
+    margin-top: 5%;
+   
+ }
+
+  .titulo-fondo h2{
+    margin-top: 0;
+    text-transform: uppercase;
+   
+ }*/
+
+ .texto-titulos{
+    justify-content: flex-start;
+    text-transform: uppercase;
+    margin: 6px;
+ }
+
+ 
+
+ .fondo-secundario{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #525151;
+    color:white;
+    border-bottom: 2px solid #04F2CA}
+
+    .texto-secundario{
+    flex-basis: 55%;
+    margin-bottom: 4%;
+    margin-right: 10%;
+    margin-left: 5%;
+    border-bottom: 2px solid #04F2CA;
+    padding-bottom: 10px;
+    
+}
+
+
+
+
+.foto-yoel{
+    margin-right: 6%;
+}
+
+.foto-yoel1{
+    
+    border: 2px solid;
+    border-radius: 70px;
+    
+}
+
+    .contactame{
+        display: flex;
+        align-items: center;
+        background-color: black;
+        height: 600px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
