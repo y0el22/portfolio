@@ -21,7 +21,7 @@ body{
   box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden;
-}
+} 
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
