@@ -85,8 +85,6 @@ li, a{
 
 
 
-
-
 .navigation{
     display: flex;
     width: 100%;
@@ -104,13 +102,6 @@ li, a{
    
     
 }
-
- 
-
-
-
-
-
 
 
 .fondo-principal{
@@ -167,26 +158,26 @@ li, a{
     border-bottom: 2px solid #04F2CA}
 
     .texto-secundario{
-    flex-basis: 55%;
+    
     margin-bottom: 4%;
-    margin-right: 10%;
+    margin-right: 5%;
     margin-left: 5%;
     border-bottom: 2px solid #04F2CA;
     padding-bottom: 10px;
     
 }
 
-
-
-
 .foto-yoel{
-    margin-right: 6%;
+    width:55%;
+    margin-left: 5%;
 }
 
 .foto-yoel1{
-    
+    width: 70%;
     border: 2px solid;
     border-radius: 70px;
+
+    
     
 }
 
