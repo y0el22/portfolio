@@ -12,7 +12,7 @@ font-family: 'Archivo Narrow',sans-serif;
 body{
     font-family: 'Raleway', sans-serif;
 }
-
+/*Efecto transición al hacer click*/
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -41,7 +41,7 @@ body{
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
-}
+}/*Termino codigo efecto*/
 
 .links a:hover{  
     color: white;
@@ -79,8 +79,7 @@ p,h3,h4,footer{
 
 li, a{
     list-style: none;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 
 
@@ -93,14 +92,10 @@ li, a{
     background: linear-gradient(to bottom, rgba(5,240,201,1) 0%, rgba(5,240,201,0.84) 80%, rgba(5,240,201,0.8) 100%);
     margin-top: 0;
     justify-content: space-between;
-    /*justify-content: center;*/
     align-items: center;
     padding: 0, 0, 8, 0 ;
     border-bottom:  3px solid #009E84;
     position: fixed;
-    
-   
-    
 }
 
 
@@ -124,21 +119,7 @@ li, a{
     align-items: center;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); 
     width: 100%;
-    /*background-color: rgba(233,233,233,.3);*/
-    }
-/*
- .titulo-fondo h1{
-    justify-content: flex-start;
-    text-transform: uppercase;
-    margin-top: 5%;
-   
  }
-
-  .titulo-fondo h2{
-    margin-top: 0;
-    text-transform: uppercase;
-   
- }*/
 
  .texto-titulos{
     justify-content: flex-start;
@@ -177,7 +158,10 @@ li, a{
     border: 2px solid;
     border-radius: 70px;
 
+<<<<<<< HEAD
     
+=======
+>>>>>>> master
     
 }
     .contactame{
@@ -189,6 +173,17 @@ li, a{
         padding-right: 5%;
     }
 
+footer{
+    background-color: #2A2A2A;
+    
+}
+
+.footer-text{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 15px 15px 15px 15px;
+}
 
 
 
